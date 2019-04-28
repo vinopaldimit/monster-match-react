@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	--brown: #1c0000;
+	--purple: #77498c;
+	--lightPurple: #d294ef;
+	--grey: #404040;
+	--red: #ca0000;
+}
+
+header {
+	background-color: red;
+}
