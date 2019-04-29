@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+	display: flex;
+	margin: 0 1.5rem;
+	padding: 1rem;
+}
+
+main{
+	padding: 2rem 1.5rem;
+}
+
+@media only screen and (min-width: 900px) {
+
+	header {
+		margin: 0 10rem;
+	}
+
+	main{
+		padding: 4rem 10rem;
+	}
+	
+}

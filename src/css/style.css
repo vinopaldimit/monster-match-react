@@ -1,16 +1,66 @@
 *{
-    margin: 0;
-    padding: 0;
+
 }
 
 :root {
-	--brown: #1c0000;
-	--purple: #77498c;
+	--brown: #1c0000; /*consider taking this out*/
+	--purple: #804f96; /*might need to make this lighter for better contrast*/
 	--lightPurple: #d294ef;
 	--grey: #404040;
+	--darkGrey: #232323;
 	--red: #ca0000;
+	--offWhite: #dddddd;
+}
+
+body{
+	background-color: var(--grey);
+
+}
+
+footer{
+	text-align: center;
+	color: var(--offWhite);
+}
+
+h1{
+	font-size: 1rem;
 }
 
 header {
-	background-color: red;
+	background-color: var(--purple);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+
+}
+
+#frontPage{
+	background-color: var(--purple);
+	border-radius: 25px;
+}
+
+#frontPage h2{
+	background-color: var(--darkGrey);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	color: var(--offWhite);
+	padding: .5rem 2rem;
+}
+
+#frontPage p{ /*this should be changed from p to somethign else. or dashes
+	moved elsewhere*/
+	padding: 1rem 2rem;
+	border-bottom: 5px dashed var(--darkGrey);
+	border-left: 5px dashed var(--darkGrey);
+	border-right: 5px dashed var(--darkGrey);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 900px) {
+
+	h1{
+		font-size: 2rem;
+	}
+	
 }
